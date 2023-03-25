@@ -9,11 +9,15 @@
 
 ###Create New Environment -
 
-[conda create -p venv python==3.7 -y]
+conda create -p venv python==3.7 -y
 
 ###Activate Environment -
 
-[conda activate venv/]
+conda activate venv/
+
+###Add all file into github
+
+git push origin main
 
 
 
